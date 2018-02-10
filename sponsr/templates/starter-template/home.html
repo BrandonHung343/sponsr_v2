@@ -49,13 +49,41 @@
     </nav>
     <div class="section no-pad-bot" id="index-banner">
       <div class="container">
-        <br><br>
-        <h1 class="header center blue-text lighten-2">Sponsr</h1>
+        <!--<br><br>-->
+        <h3 class="header center blue-text lighten-2">Home</h3>
         <div class="row center">
-          <h5 class="header col s12 light">Connecting those in need with those who want to give</h5>
+          <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+          <label for="first_name">First Name</label>
         </div>
-        <div class="">
-          <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark" data-width="300" data-height="50" data-longtitle="true"></div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input disabled value="I am not editable" id="disabled" type="text" class="validate">
+          <label for="disabled">Disabled</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="password" type="password" class="validate">
+          <label for="password">Password</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+    </form>
+  </div>
         </div>
 <!--
 <div class="row center">
